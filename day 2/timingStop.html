@@ -1,0 +1,20 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> Click Button Play if you want see Alert</p>
+    <p>Click stop if you canceled see Alert (you must click before 5 seconds after click button Play</p>
+    <button onclick="myVar = setTimeout(myTiming, 5000)">Play</button>
+    <button onclick="clearTimeout(myVar)">Stop</button>
+
+    <script>
+        function myTiming(){
+            alert ("hello world");
+        }
+    </script>
+</body>
+</html>

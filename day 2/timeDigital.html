@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="jam-digital">
+        <div class="kotak">jam
+        </div>
+        <div class="kotak" id="menit">Menit
+            
+        </div>
+        <div class="kotak" id="detik">Detik
+           
+        </div>
+    </div>
+    <script>
+        window.setTimeout("waktu()",1000);
+        function waktu(){
+            var waktu = new Date();
+            setTimeout ("waktu()",1000);
+            document.getElementById("jam").innerHTML = waktu.getHours();
+            document.getElementById("menit").innerHTML =waktu.getMinutes();
+            document.getElementById("detik").innerHTML = waktu.getSeconds();
+        }
+    </script>
+</body>
+</html>
