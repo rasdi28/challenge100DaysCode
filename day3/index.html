@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3> how to Access an A element</h3>
+    <a id="myAnchor" href="http://100dayscode.com">Tutorials</a>
+    <p> Click the button to get the URL of the link</p>
+    <button onclick="myFunction()">Click me</button>
+    <p id="demo"></p>
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myAnchor").href;
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+</body>
+</html>
