@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Click the button to create an Addrss element with some text</p>
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+        function myFunction(){
+            var x = document.createElement("ADDRESS");
+            var t = document.createTextNode("box 568, Disneyland , USA");
+            x.appendChild(t);
+            document.body.appendChild(x);
+        }
+    </script>
+</body>
+</html>
