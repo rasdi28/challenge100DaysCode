@@ -6,6 +6,9 @@
 <!-- Italics -->
 *this text* is italic
 
+italic dalam markdown adalah menggunakan *tanda bintang (bintang)* atau menggunakan underscore 
+contoh : _this is italic_
+
 _this text_  is italic
 
 <!-- Strong -->
@@ -18,7 +21,7 @@ __This Text__ is Strong
 
 ~~This Text~~ is strikethough
 
-<!-- Italics -->
+<!-- horizontal line -->
 
 ---
 horizontal line
@@ -43,8 +46,8 @@ ___
 <!-- Order List -->
 
 1. Item 1
-1. Item 2
-2. Item 3
+2. Item 2
+3. Item 3
   
 
 <!-- Inline Code Block -->
