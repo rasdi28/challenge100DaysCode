@@ -1,6 +1,5 @@
 ## PERINTAH PERINTAH DALAM GIT
 
-___
 ## MENAMBAHKAN FILE
 ```
 git add
