@@ -1,0 +1,10 @@
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  background-color: aliceblue;
+}
+
+input,
+label {
+  margin: .2rem 0;
+}
