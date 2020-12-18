@@ -1,6 +1,6 @@
 "use strict";
-function getData(param1) {
-    if (param1 === void 0) { param1 = "ini default param 1"; }
-    console.log(param1);
+function addNumber(a, b) {
+    return a + b;
 }
-getData("nilai diisi");
+var sum = addNumber(5, 7);
+console.log('Sum of the two number is' + sum);

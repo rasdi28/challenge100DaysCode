@@ -1,5 +1,6 @@
-function getData(param1 : string = "ini default param 1"): void {
-    console.log (param1);
-} 
+function addNumber( a:number, b:number){
+    return a+b;
+}
 
-getData("nilai diisi");
+var sum: number = addNumber(5,7)
+console.log ('Sum of the two number is ' +sum);
