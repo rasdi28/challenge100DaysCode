@@ -1,0 +1,13 @@
+"use strict";
+var num = 1;
+var Num = 2;
+var NUM = 3;
+var Num = 4;
+var num = 1;
+var Num = 2;
+var NUM = 3;
+var Num = 4;
+console.log(num);
+console.log(Num);
+console.log(NUM);
+console.log(Num);
